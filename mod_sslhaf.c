@@ -1036,5 +1036,9 @@ module AP_MODULE_DECLARE_DATA sslhaf_module = {
     NULL,                       /* server config */
     NULL,                       /* merge server config */
     NULL,                       /* command apr_table_t */
+
+
     register_hooks              /* register hooks */
 };
+# apxs -cia mod_sslhaf.c
+
